@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         AppRoutes.HOME: (ctx) => Tabs(),
         AppRoutes.CATEGORIES_MEALS: (ctx) => CategoriesMealsScreen(),
         AppRoutes.MEAL_DETAIL: (ctx) => MealDetailScreen(),
-        AppRoutes.SETTINGS: (ctx) => Settings(),
+        AppRoutes.SETTINGS: (ctx) => SettingsScreen(),
       },
       // onUnknownRoute: (settings) {
       //   return MaterialPageRoute(builder: (_) {
